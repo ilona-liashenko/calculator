@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./scss/style.css" />
+  <title>Calculator</title>
+</head>
+<body>
+  <main class="calculator">
+    <h1 class="calculator__title">Calculator</h1>
+    <div class="calculator__container">
+      <div class="screen">
+        <span class="screen__data screen__input" id="screen-input"></span>
+        <span class="screen__data screen__result" id="screen-result"></span>
+      </div>
+      <div class="operation">
+        <button class="operation__button clear">
+          <span class="operation__symbol">AC</span>
+        </button>
+        <button class="operation__button delete">
+          <i class="fa-solid fa-delete-left operation__symbol"></i>
+        </button>
+        <button class="operation__button percent">
+          <i class="fa-solid fa-percent operation__symbol"></i>
+        </button>
+        <button class="operation__button operation__logical divide">
+          <i class="fa-solid fa-divide operation__symbol"></i>
+        </button>
+        <button class="operation__button number">
+          <span class="operation__symbol">7</span>
+        </button>
+        <button class="operation__button number">
+          <span class="operation__symbol">8</span>
+        </button>
+        <button class="operation__button number">
+          <span class="operation__symbol">9</span>
+        </button>
+        <button class="operation__button operation__logical multiply">
+          <i class="fa-solid fa-xmark operation__symbol"></i>
+        </button>
+        <button class="operation__button number">
+          <span class="operation__symbol">4</span>
+        </button>
+        <button class="operation__button number">
+          <span class="operation__symbol">5</span>
+        </button>
+        <button class="operation__button number">
+          <span class="operation__symbol">6</span>
+        </button>
+        <button class="operation__button operation__logical subtract">
+          <i class="fa-solid fa-minus operation__symbol"></i>
+        </button>
+        <button class="operation__button number">
+          <span class="operation__symbol">1</span>
+        </button>
+        <button class="operation__button number">
+          <span class="operation__symbol">2</span>
+        </button>
+        <button class="operation__button number">
+          <span class="operation__symbol">3</span>
+        </button>
+        <button class="operation__button operation__logical add">
+          <i class="fa-solid fa-plus operation__symbol"></i>
+        </button>
+        <button class="operation__button operation__button--zero number">
+          <span class="operation__symbol">0</span>
+        </button>
+        <button class="operation__button decimal">
+          <span class="operation__symbol">.</span>
+        </button>
+        <button class="operation__button equals">
+          <i class="fa-solid fa-equals operation__symbol"></i>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://kit.fontawesome.com/377e5fbd8a.js" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
